@@ -1,0 +1,33 @@
+# The URL the site will be built for
+base_url = " https://dialup-expat.github.io"
+title = "Dialup Expat"
+description = "Just a dude yearning for those sweet modem sounds"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+generate_feeds = true
+feed_limit = 10
+feed_filenames = ["atom.xml"]
+taxonomies = [{ name = "tags" }]
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+theme = "zolanight"
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+# Put all your custom variables here
+
+
+[extra.zolanight]
+theme = "tokyonight"               # Default theme, override as shown above
+home_list_latest_blog_posts = true # Toggles latest posts on homepage
+google_analytics_id = ""           # Set a GA ID to use with analytics snippet
+ko_fi_url = ""                     # Link to your Ko-fi page for donations.
+
+
