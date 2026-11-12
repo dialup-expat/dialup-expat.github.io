@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = " https://dialup-expat.github.io"
+base_url = "https://dialup-expat.github.io"
 title = "Dialup Expat"
 description = "Just a dude yearning for those sweet modem sounds"
 
